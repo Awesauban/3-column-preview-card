@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+.all-cars {
+  margin: 3rem 2rem;
+}
+
+.car-tab {
+  padding: 2.5rem;
+}
+
+.car-name {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: hsl(0, 0%, 95%);
+}
+
+.car-info {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.car-icon, .car-name, .car-info, .btn {
+  margin: 1rem;
+}
+
+.btn {
+  padding: 1rem 1.5rem;
+  border-radius: 1.5rem;
+  border-style: none;
+}
+
+.sedan-btn {
+  color: hsl(31, 77%, 52%);
+}
+
+.suv-btn {
+  color: hsl(184, 100%, 22%);
+}
+
+.luxury-btn {
+  color: hsl(179, 100%, 13%);
+}
+
+.sedan {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 1.25rem 1.25rem 0 0;
+}
+
+.suv {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 0 1.25rem 1.25rem;
+}
+
+.attribution { 
+  font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
+
+@media (min-width:375px) {
+  
+  .all-cars {
+    display: flex;
+  }
+
+  .sedan {
+    border-radius: 1.25rem 0 0 1.25rem;
+  }
+
+  .luxury {
+    border-radius: 0 1.25rem 1.25rem 0 ;
+  }
+
+}
