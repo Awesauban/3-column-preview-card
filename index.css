@@ -40,19 +40,24 @@ body {
 .btn {
   padding: 1rem 1.5rem;
   border-radius: 1.5rem;
-  border-style: none;
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
 }
 
-.sedan-btn {
+.sedan-btn:hover {
   color: hsl(31, 77%, 52%);
+  background-color: hsl(0, 0%, 95%);
 }
 
-.suv-btn {
+.suv-btn:hover {
   color: hsl(184, 100%, 22%);
+  background-color: hsl(0, 0%, 95%);
 }
 
-.luxury-btn {
+.luxury-btn:hover {
   color: hsl(179, 100%, 13%);
+  background-color: hsl(0, 0%, 95%);
 }
 
 .sedan {
@@ -70,12 +75,21 @@ body {
 }
 
 .attribution { 
-  font-size: 11px; text-align: center; 
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 11px; 
+  word-spacing: 0.1rem;
+  text-align: center; 
 }
 
 .attribution a { 
-  color: hsl(228, 45%, 44%); 
+  color: hsl(31, 77%, 52%);
+  text-decoration: none;
 }
+
+.attribution-tab {
+  color: hsl(179, 100%, 13%);
+}
+
 
 @media (min-width:375px) {
   
